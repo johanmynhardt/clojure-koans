@@ -1,0 +1,7 @@
+{:deps {#_#_koan-engine/koan-engine {:mvn/version "0.2.5"}
+        fresh/fresh {:mvn/version "1.0.2"}}
+ :paths ["../clojure-koan-engine/src"
+         "resources"]
+
+ :aliases
+ {:run {:main-opts ["script/run.clj"]}}}
