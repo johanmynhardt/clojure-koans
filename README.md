@@ -80,6 +80,10 @@ If want to run directly from a REPL, once you are inside the `lein repl` prompt 
 
 `(exec "run")`
 
+Or via deps.edn:
+
+`clj -Mrun`
+
 Either way, it's an auto-runner, so as you save your files with the correct
 answers, it will advance you to the next koan or file (conveniently, all files
 are prefixed with the sequence that you should follow).
